@@ -15,8 +15,7 @@ def remove_student(student_id):
 def search_student(student_id):
     if student_id in students:
         return students[student_id]
-    else:
-        return False
+    return None
 
 def update_student(student_id, name):
     if student_id in students:
