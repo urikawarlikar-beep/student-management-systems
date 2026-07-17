@@ -9,7 +9,7 @@ def add_student(student_id, name):
 def remove_student(student_id):
     if student_id in students:
         del students[student_id]
-        return True
+        return Tru
     return False
 
 def search_student(student_id):
